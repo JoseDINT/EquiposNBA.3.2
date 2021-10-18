@@ -9,44 +9,33 @@
 
     <!--Lakers-->
     <StackPanel>
-        <Border Margin="5" BorderThickness="3" BorderBrush="Black" CornerRadius="3">
+        <Border Style="{StaticResource BordeLakersStyle}">
             <StackPanel>
-                <StackPanel.Background>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FF651EA0" Offset="0"/>
-                        <GradientStop Color="#FFE4F910" Offset="0.99"/>
-                    </LinearGradientBrush>
-                </StackPanel.Background>
-                <WrapPanel HorizontalAlignment="Center">
-                    <TextBlock Text="Los Ángeles Lakers" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" ></TextBlock>
+
+                <WrapPanel Style="{StaticResource WrapPannerlAligment}">
+                    <TextBlock Style="{StaticResource TextoLakersStyle}" >Los Ángeles Lakers</TextBlock>
                  </WrapPanel>
-                <WrapPanel HorizontalAlignment="Center">
-                    <Image Source="assets/imagenes/9_lakers.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/14_lakers.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/23_lakers.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/3_lakers.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/39_lakers.png" Width="150"></Image>
+                <WrapPanel Style="{StaticResource WrapPannerlAligment}">
+                    <Image Source="assets/imagenes/9_lakers.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/14_lakers.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/23_lakers.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/3_lakers.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/39_lakers.png" Style="{StaticResource ImgageDimensions}"></Image>
                 </WrapPanel>
             </StackPanel>
             
         </Border>
-        <Border Margin="5" BorderThickness="3" BorderBrush="Black" CornerRadius="3">
+        <Border Style="{StaticResource BordeHeatStyle}">
             <StackPanel>
-                <StackPanel.Background>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FFE21919" Offset="0"/>
-                        <GradientStop Color="Black" Offset="0.99"/>
-                    </LinearGradientBrush>
-                </StackPanel.Background>
-                <WrapPanel HorizontalAlignment="Center">
-                    <TextBlock Text="Miami Heat" Foreground="White"  FontWeight="Bold" FontSize="30" TextWrapping="Wrap" ></TextBlock>
+                <WrapPanel Style="{StaticResource WrapPannerlAligment}">
+                    <TextBlock Style="{StaticResource TextoLakersStyle}">Miami Heat</TextBlock>
                 </WrapPanel>
-                <WrapPanel HorizontalAlignment="Center">
-                    <Image Source="assets/imagenes/7_heat.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/14_heat.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/22_heat.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/99_heat.png" Width="150"></Image>
-                    <Image Source="assets/imagenes/13_heat.png" Width="150"></Image>
+                <WrapPanel Style="{StaticResource WrapPannerlAligment}" >
+                    <Image Source="assets/imagenes/7_heat.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/14_heat.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/22_heat.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/99_heat.png" Style="{StaticResource ImgageDimensions}"></Image>
+                    <Image Source="assets/imagenes/13_heat.png" Style="{StaticResource ImgageDimensions}"></Image>
                 </WrapPanel>
             </StackPanel>
 
