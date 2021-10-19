@@ -5,64 +5,6 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         
-        <!--WrapPanel-->
-        <Style TargetType="{x:Type WrapPanel}" x:Key="WrapPannerlAligment">
-
-            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
-        </Style>
         
-        <!--Dimensión imágenes-->
-        <Style TargetType="{x:Type Image}" x:Key="ImgageDimensions">
-            <Setter Property="Width" Value="150"/>
-        </Style>
-
-        <!--Borde-->
-        <Style TargetType="{x:Type Border}" x:Key="BorderStyle">
-            <Setter Property="BorderThickness" Value="3"/>
-            <Setter Property="CornerRadius" Value="3"/>
-            <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="Margin" Value="5"/>
-        </Style>
-
-        <!--BordeHeat-->
-        <Style TargetType="{x:Type Border}" x:Key="BordeLakersStyle" BasedOn="{StaticResource BorderStyle}">
-            <Setter Property="Background">
-                <Setter.Value>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FF651EA0" Offset="0"/>
-                        <GradientStop Color="#FFE4F910" Offset="0.97"/>
-                    </LinearGradientBrush>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!--BordeLakers-->
-        <Style TargetType="{x:Type Border}" x:Key="BordeHeatStyle" BasedOn="{StaticResource BorderStyle}">
-            <Setter Property="Background">
-                <Setter.Value>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FFE21919" Offset="0"/>
-                        <GradientStop Color="Black" Offset="0.97"/>
-                    </LinearGradientBrush>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!--TextoHeat-->
-        <Style TargetType="{x:Type TextBlock}" x:Key="TextoHeatStyle">
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="TextWrapping" Value="Wrap"/>
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
-
-        <!--TextoLakers-->
-        <Style TargetType="{x:Type TextBlock}" x:Key="TextoLakersStyle">
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="TextWrapping" Value="Wrap"/>
-        </Style>
-
-
     </Application.Resources>
 </Application>
